@@ -18,6 +18,7 @@ body {
 .header {
   display: flex;
   flex-direction: row;
+  position: relative;
   margin: 0 auto;
   width: 100%;
   background-color: #714955;
@@ -52,3 +53,25 @@ h1 {
   color: #A0ECD0;
 }
 
+.about-me p {
+  font-size: 1.25em;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #714955;
+  position: relative;
+}
+
+.footer a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #A0ECD0;
+}

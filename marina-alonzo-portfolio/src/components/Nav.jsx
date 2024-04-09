@@ -5,7 +5,7 @@ function Navbar() {
     <header className="header">
       <div className="navbar">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="nav-link">
+          <a href="#about-me" className="nav-link">
             Marina Alonzo
           </a>
         </a>

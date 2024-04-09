@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="portfolio">
       <Header />
-      <div>
+      <div className='about-me'>
         <p>
           Hi, I'm Marina, 
           <br />
