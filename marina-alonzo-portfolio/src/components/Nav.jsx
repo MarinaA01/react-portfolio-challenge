@@ -5,21 +5,23 @@ function Navbar() {
   return (
     <header className="header">
       <div className="navbar">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about-me" className="nav-link">
-            About Me
-          </a>
-        </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#portfolio" className="nav-link">
-            Portfolio
-          </a>
+        <nav>
+          <ul>
+            <li>
+              <a href="#" className="nav-link">About Me</a>
+            </li>
+            <li>
+              <a href="#" className="nav-link">Portfolio</a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="nav-link">
+                Work With Me
+              </a>
+            </li>
+          </ul>
         </nav>
-        <a
-          href="#contact"
-          className="nav-link">
-          Work With Me
-        </a>
       </div>
     </header>
   );
