@@ -12,6 +12,7 @@ body {
 
 .portfolio {
   display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -25,9 +26,18 @@ body {
 .Navbar {
   display: flex;
   flex-direction: row;
-  align-items: center;
   width: 100%;
+  color: #A0ECD0;
+  align-items: right;
+}
 
+.Navbar a {
+  text-decoration: none;
+  color: #A0ECD0;
+  margin: 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
 }
 
 h1 {
@@ -36,6 +46,3 @@ h1 {
   color: #A0ECD0;
 }
 
-h2 {
-  color: #A0ECD0;
-}
