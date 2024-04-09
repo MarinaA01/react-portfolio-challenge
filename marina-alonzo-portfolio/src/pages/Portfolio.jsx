@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 function Portfolio() {
     return (
-        <div className="projects">
+        <div className="projects" id="portfolio">
             <Header />
             <Navbar />
             <div className="portfolio-content">
