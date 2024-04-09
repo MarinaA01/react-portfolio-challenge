@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Nav from "./Nav";
+import Portfolio from "../pages/Portfolio";
 
 function Header() {
     return (

@@ -1,4 +1,5 @@
 import React from "react";
+import Portfolio from "../pages/Portfolio";
 
 function Navbar() {
   return (
@@ -10,7 +11,7 @@ function Navbar() {
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="nav-link">
+          <a href="../pages/Portfolio" className="nav-link">
             Portfolio
           </a>
         </nav>
