@@ -38,6 +38,12 @@ body {
   display: flex;
   flex-direction: row;
   align-items: right;
+  text-align: right;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #A0ECD0;
 }
 
 h1 {

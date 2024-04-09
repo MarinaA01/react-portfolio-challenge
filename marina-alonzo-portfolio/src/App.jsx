@@ -1,11 +1,20 @@
 import './App.css';
 import Header from './components/Header';
-import Nav from './components/Nav';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="portfolio">
       <Header />
+      <div>
+        <p>
+          Hi, I'm Marina, 
+          <br />
+          a full stack developer who just completed a coding bootcamp with UCF.
+        </p>
+      </div>
+      <Footer />
     </div>
   );
 }
