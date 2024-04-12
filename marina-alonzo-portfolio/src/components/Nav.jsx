@@ -20,6 +20,13 @@ function Navbar() {
                 Work With Me
               </a>
             </li>
+            <li>
+              <a
+                href="#resume"
+                className="nav-link">
+                Resume
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
